@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <title>Prueba Pixel Sort gratis antes que nadie</title>
+  <meta name="description" content="Pixel Sort aún no ha salido. Apúntate gratis a la prueba para Android y juega antes que nadie.">
+  <style>
+    :root{--azul:#2a6fd6;--azul-claro:#6cc1f2;--tinta:#16264d;--suave:#55648a;--coral:#d63a4b;--fondo:#f5f7fc;--verde:#23894a;--verde-f:#eaf7ef;--linea:#dfe5f2}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--fondo);color:var(--tinta);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.5}
+    a{color:inherit}
+    .ancho{max-width:980px;margin:0 auto;padding:0 20px}
+    .hero{background:radial-gradient(circle at 75% 35%,var(--azul-claro),var(--azul) 70%);color:#fff;overflow:hidden}
+    .hero .ancho{display:flex;flex-direction:column;align-items:center;text-align:center;gap:28px;padding-top:36px}
+    .sello{display:inline-block;padding:5px 14px;border-radius:99px;background:rgba(255,255,255,.2);font-size:14px;font-weight:600}
+    h1{font-size:36px;line-height:1.12;margin:14px 0 12px;letter-spacing:-.01em}
+    .hero p{margin:0 auto 22px;max-width:30em;font-size:18px}
+    .btn{display:block;text-align:center;padding:15px 20px;border-radius:12px;background:var(--coral);color:#fff;font-weight:700;font-size:18px;text-decoration:none}
+    .hero .btn{display:inline-block;padding:16px 34px;box-shadow:0 8px 20px rgba(16,40,100,.3)}
+    .aclara{display:block;margin-top:10px;font-size:14px;opacity:.92}
+    .movil{width:250px;margin-bottom:-90px;border:8px solid #12204a;border-radius:32px;overflow:hidden;background:#12204a;box-shadow:0 18px 40px rgba(10,30,90,.4);flex:none}
+    .movil img{display:block;width:100%;height:auto}
+    .datos{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0;padding:24px 0 0;list-style:none;text-align:center}
+    .datos li{background:#fff;border:1px solid var(--linea);border-radius:12px;padding:12px 6px;font-size:14px;color:var(--suave)}
+    .datos b{display:block;font-size:19px;color:var(--tinta)}
+    h2{font-size:26px;line-height:1.2;margin:40px 0 8px}
+    .intro{margin:0 0 16px;color:var(--suave)}
+    .galeria{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 0 12px;margin:0}
+    .galeria figure{flex:0 0 62%;max-width:230px;margin:0;scroll-snap-align:start}
+    .galeria img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--linea)}
+    .galeria figcaption{font-size:14px;color:var(--suave);margin-top:6px;text-align:center}
+    .paso{background:#fff;border:2px solid var(--linea);border-radius:16px;padding:18px;margin:0 0 14px}
+    .paso.activo{border-color:var(--azul);box-shadow:0 6px 18px rgba(42,111,214,.14)}
+    .paso.hecho{border-color:var(--verde);background:var(--verde-f)}
+    .paso h3{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:20px}
+    .num{display:inline-flex;align-items:center;justify-content:center;flex:none;width:32px;height:32px;border-radius:50%;background:var(--azul);color:#fff;font-size:16px}
+    .hecho .num{background:var(--verde)}
+    .hecho .btn{background:var(--verde)}
+    .paso p{margin:10px 0 0;font-size:16px}
+    .paso small{display:block;margin-top:8px;font-size:14px;line-height:1.4;color:var(--suave)}
+    #fin{display:none;background:var(--verde-f);border:2px solid var(--verde);border-radius:16px;padding:18px;margin:0 0 14px}
+    #fin b{font-size:20px}
+    #fin p{margin:6px 0 0}
+    .nota{background:#fff;border:1px solid var(--linea);border-radius:16px;padding:6px 18px;margin-top:8px}
+    .nota p{margin:12px 0;font-size:16px}
+    footer{margin:36px 0 0;padding:20px 0 32px;border-top:1px solid var(--linea);font-size:14px;color:var(--suave)}
+    @media (min-width:800px){
+      .hero .ancho{flex-direction:row;justify-content:space-between;text-align:left;gap:40px;padding-top:48px}
+      .hero p{margin-left:0}
+      h1{font-size:50px}
+      .texto{padding-bottom:70px}
+      .movil{width:280px;margin-bottom:-60px}
+      .datos{padding-top:32px;max-width:560px}
+      .columnas{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+      .galeria figure{flex:1 1 0}
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="ancho">
+      <div class="texto">
+        <span class="sello">Acceso anticipado · Android</span>
+        <h1>Juega a Pixel Sort antes que nadie</h1>
+        <p>Ordena cuentas de colores, llena el tablero y mira cómo aparece el dibujo. Aún no ha salido y buscamos a las primeras personas que lo jueguen.</p>
+        <a class="btn" href="#apuntarse">Quiero probarlo gratis</a>
+        <span class="aclara">Apuntarse lleva 2 minutos</span>
+      </div>
+      <div class="movil"><img src="img/nivel-12.webp" width="540" height="960" alt="Pantalla del nivel 12 de Pixel Sort: un tablero de cuentas de colores y frascos para ordenarlas"></div>
+    </div>
+  </header>
+
+  <main class="ancho">
+    <ul class="datos">
+      <li><b>Gratis</b>sin pagar nada</li>
+      <li><b>50</b>niveles</li>
+      <li><b>Cortas</b>partidas rápidas</li>
+    </ul>
+
+    <div class="columnas">
+      <section>
+        <h2>Así es el juego</h2>
+        <p class="intro">Cada nivel acaba en un dibujo nuevo para tu colección.</p>
+        <div class="galeria">
+          <figure><img src="img/nivel-44.webp" width="540" height="960" alt="Nivel 44 de Pixel Sort" loading="lazy"><figcaption>Cada vez más difícil</figcaption></figure>
+          <figure><img src="img/galeria.webp" width="540" height="960" alt="Galería de dibujos completados en Pixel Sort" loading="lazy"><figcaption>Tu colección de dibujos</figcaption></figure>
+        </div>
+      </section>
+
+      <section id="apuntarse">
+        <h2>Apúntate en 2 pasos</h2>
+        <p class="intro">Necesitas un móvil Android y una cuenta de Google.</p>
+
+        <div class="paso" data-paso="1">
+          <h3><span class="num">1</span> Únete al grupo de la prueba</h3>
+          <a class="btn" data-paso="1" href="https://groups.google.com/g/pixel-sort-probadores" target="_blank" rel="noopener">Unirme al grupo</a>
+          <p>Allí pulsa <b>«Unirse al grupo»</b> y vuelve a esta pestaña.</p>
+          <small>Quien gestiona el grupo ve tu correo de Google. Solo se usa para darte acceso a la prueba, sin publicidad, y puedes salir cuando quieras.</small>
+        </div>
+
+        <div class="paso" data-paso="2">
+          <h3><span class="num">2</span> Activa la prueba y descarga</h3>
+          <a class="btn" data-paso="2" href="https://play.google.com/apps/testing/com.puntilo.pixelsort" target="_blank" rel="noopener">Activar y descargar</a>
+          <p>Pulsa <b>«Convertirse en tester»</b> y luego <b>«descargarlo en Google Play»</b>.</p>
+          <small>¿Dice «no disponible»? Espera un minuto: el grupo tarda un poco en darte acceso. ¿No sale el enlace de descarga? <a href="https://play.google.com/store/apps/details?id=com.puntilo.pixelsort" target="_blank" rel="noopener">Ábrelo aquí en Google Play</a>.</small>
+        </div>
+
+        <div id="fin">
+          <b>¡Listo, ya eres probador!</b>
+          <p>Solo una cosa: déjalo instalado 14 días, aunque no juegues todos.</p>
+        </div>
+
+        <div class="nota">
+          <p><b>¿Por qué 14 días?</b> Google pide que un juego nuevo lo prueben al menos 12 personas durante 14 días antes de publicarlo.</p>
+          <p>Es una versión de prueba: puede tener algún fallo y muestra anuncios, como la versión final.</p>
+          <p>¿Qué te ha parecido? <a href="https://docs.google.com/forms/d/e/1FAIpQLSeREVZlRHjAIEgwvDBAXQpdTey_Mk1NzHdKLiWGEBpNeD1D4g/viewform" target="_blank" rel="noopener"><b>Cuéntanoslo en 2 minutos</b></a></p>
+        </div>
+      </section>
+    </div>
+
+    <footer>Puntilo Studio · <a href="../../privacidad/pixel-sort/">Privacidad</a> · <a href="mailto:contacto@puntilo.com">contacto@puntilo.com</a></footer>
+  </main>
+
+  <script>
+  (function () {
+    var K = 'pj_paso_hecho';
+    function leer() { try { return +localStorage.getItem(K) || 0; } catch (e) { return 0; } }
+    function pintar() {
+      var hecho = leer();
+      document.querySelectorAll('.paso').forEach(function (caja) {
+        var n = +caja.getAttribute('data-paso');
+        caja.classList.toggle('hecho', n <= hecho);
+        caja.classList.toggle('activo', n === hecho + 1);
+        caja.querySelector('.num').textContent = n <= hecho ? '✓' : n;
+      });
+      document.getElementById('fin').style.display = hecho >= 2 ? 'block' : 'none';
+    }
+    document.querySelectorAll('.btn[data-paso]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var n = +b.getAttribute('data-paso');
+        try { if (leer() < n) localStorage.setItem(K, n); } catch (e) {}
+        setTimeout(pintar, 300);
+      });
+    });
+    pintar();
+  })();
+  </script>
+</body>
+</html>
